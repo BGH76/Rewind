@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #1d5888;
+    --primary-color: black;
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color: #dff3e4;
+    --green-color: green;
 }
 
 body {
@@ -45,7 +46,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .checklist >li i {
-    color: var(--secondary-color);
+    color: var(--green-color);
 }
 
 code[class*="language-"],
